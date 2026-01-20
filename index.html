@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechWave</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+
 </head>
 
 <body class="inter-font">
@@ -21,10 +23,87 @@
             <li><a href="">Episode</a></li>
             <li><a href="">Host</a></li>
         </nav>
-        <button id="nav-btn">Subscribe <img src="assets/right-arrow.png" alt=""></button>
+        <button class="btn" id="nav-btn">Subscribe <img src="assets/right-arrow.png" alt=""></button>
+        <img id="hamburger" src="assets/hamburger-menu.png" alt="">
     </header>
     <main>
+        <!-- hero-section -->
+        <section class="hero-section">
+            <div class="hero-circle">
+                <p class="floating-msg">NEW</p>
+                <img src="assets/hero-circle.png" alt="">
+                <img class="hero-mic" src="assets/microphone.png" alt="">
+            </div>
+            <div class="hero-heading">
+                <div>
+                    <h3>
+                        TechWave
+                    </h3>
+                    <p>
+                        Your daily dose of tech insights, productivity hacks, and personal growth
+                    </p>
+                </div>
+                <div class="hero-section-btn">
+                    <button class="btn"><img src="assets/spotify.png" alt=""> Listen On Spotify</button>
+                    <button class="subscribe-btn"><img src="assets/message.png" alt=""> Subscribe</button>
+                </div>
+            </div>
 
+            <!-- hero description -->
+        </section>
+        <section class="hero-description-bg">
+            <div class="hero-description">
+                <h2>
+                    About The Post
+                </h2>
+                <p>
+                    TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br
+                        class="break">
+                    We break down complex topics into digestible insights, explore productivity strategies that
+                    actually
+                    work, <br class="break">
+                    and share stories of personal growth from industry leaders.
+                </p>
+                <p>
+                    Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+                </p>
+            </div>
+            <hr>
+            <div class="hero-card-section">
+                <div class="hero-cards">
+                    <h3>
+                        150K+
+                    </h3>
+                    <p>
+                        MONTHLY LISTENERS
+                    </p>
+                </div>
+                <div class="hero-cards">
+                    <h3>
+                        200+
+                    </h3>
+                    <p>
+                        EPISODE PUBLISED
+                    </p>
+                </div>
+                <div class="hero-cards">
+                    <h3>
+                        4.9★
+                    </h3>
+                    <p>
+                        AVERAGE RATING
+                    </p>
+                </div>
+                <div class="hero-cards">
+                    <h3>
+                        50+
+                    </h3>
+                    <p>
+                        INDUSTRY EXPERTS
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
